@@ -1,0 +1,39 @@
+.todo-item{
+    display:flex;
+    justify-content:space-between;
+    border-radius:10px;
+    list-style:none;
+    width:350px;
+    height:40px;
+    font-family:"Roboto";
+    font-size:15px;
+    padding:0px 20px;
+    align-items:center;
+    background-color: lightblue;
+    margin:10px;
+}
+@media screen and (max-width:300px) {
+    .todo-item{
+        width:150px;
+        justify-content:space-around;
+    }
+}
+.button-container{
+    display:flex;
+    justify-content:space-between;
+}
+.button{
+    color:white;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    margin:0px 5px;
+    height:24px;
+    border-radius:10px;
+}
+.edit{
+    background-color:rgb(34, 172, 34);
+}
+.delete{
+    background-color:rgb(26, 108, 202);
+}
